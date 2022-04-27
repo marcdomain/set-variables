@@ -1,0 +1,23 @@
+on:
+  push:
+    branches: [main]
+
+jobs:
+  evaluate_variables:
+    runs-on: ubuntu-latest
+    name: Job to evaluate variables
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: evaluate variables step
+        uses: ./
+        with:
+          variables: |
+            ENVIRONMENT: "${{ github.ref }}" == "refs/heads/main" ? "production" : "staging"
+            USERNAME: 1 > 2 ? "John" : "Doe"
+
+      - name: Get the output variables
+        run: |
+          echo "check environment ${{ env.ENVIRONMENT }}"
+          echo "check username ${{ env.USERNAME }}"

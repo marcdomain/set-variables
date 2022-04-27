@@ -1,0 +1,9 @@
+name: 'Set Variables'
+description: 'Set variables dynamically and get the resolved output'
+inputs:
+  variables:
+    description: 'Variables to be treated'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
