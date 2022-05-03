@@ -1,6 +1,6 @@
 # set-variables
 
-Github Action for setting variables dynamically, and also accepts the ternary operator syntax `VARIABLE_NAME: conditional_statement ? true : false`.
+Github Action for setting multiple variables dynamically, and also accepts the ternary operator syntax `VARIABLE_NAME: conditional_statement ? true : false`.
 
 ## USAGE
 

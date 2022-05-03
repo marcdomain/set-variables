@@ -1,4 +1,4 @@
-name: 'Set Variables'
+name: 'set-variables'
 description: 'Set variables dynamically and get the resolved output'
 inputs:
   variables:
