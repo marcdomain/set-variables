@@ -6,7 +6,8 @@ Github Action for setting multiple variables dynamically, and also accepts the t
 
 ### Variables
 
-Variable names are dynamic - you're free to name your variables as you wish. Example:
+Variable names are dynamic - you're free to name your variables as you wish. \
+Example:
 
 ```yaml
 - uses: marcdomain/set-variables@v1
@@ -21,3 +22,7 @@ Variable names are dynamic - you're free to name your variables as you wish. Exa
 ### Output
 
 Outputs are the resolved variables. In the example above, you can get the expected values with `${{ env.ENVIRONMENT }}` and `${{ env.USERNAME }}` respectively.
+
+#### If you would like to buy me coffee ☕️ 😍
+
+https://www.buymeacoffee.com/marcdomain
