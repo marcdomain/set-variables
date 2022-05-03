@@ -21,3 +21,7 @@ Variable names are dynamic - you're free to name your variables as you wish. Exa
 ### Output
 
 Outputs are the resolved variables. In the example above, you can get the expected values with `${{ env.ENVIRONMENT }}` and `${{ env.USERNAME }}` respectively.
+
+#### If you would like to buy me coffee ☕️ 😍
+
+https://www.buymeacoffee.com/marcdomain
