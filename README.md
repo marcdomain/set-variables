@@ -17,7 +17,11 @@ Example:
         USERNAME: 1 > 2 ? "John" : "Doe"
 ```
 
-> **_NOTE:_** Only `string`, `number`, and `boolean` data types are accepted in the conditions/values. The maximum number of variables allowed is 10.
+> **_NOTE:_**
+
+- Only `string`, `number`, and `boolean` data types are accepted in the conditions/values.
+- The maximum number of variables allowed is 10.
+- The allowed conditional operators are `<`, `>`, `<=`, `>=`, `<>`, `==`, `!=`, `&&`, `||`
 
 ### Output
 
