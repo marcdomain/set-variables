@@ -1,6 +1,6 @@
 {
   "name": "set-variables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "set github actions variable using ternary operator",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/marcdomain/set-variables.git"
   },
-  "keywords": [],
+  "keywords": [
+    "variables",
+    "github",
+    "actions",
+    "outputs"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -18,6 +23,6 @@
   },
   "homepage": "https://github.com/marcdomain/set-variables#readme",
   "dependencies": {
-    "@actions/core": "^1.7.0"
+    "@actions/core": "^1.10.1"
   }
 }
