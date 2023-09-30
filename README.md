@@ -10,7 +10,7 @@ Variable names are dynamic - you're free to name your variables as you wish. \
 Example:
 
 ```yaml
-- uses: marcdomain/set-variables@v1
+- uses: marcdomain/set-variables@v1.2
     with:
       variables: |
         ENVIRONMENT: "${{ github.ref }}" == "refs/heads/main" ? "production" : "staging"
@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: set variables
-        uses: marcdomain/set-variables@v1
+        uses: marcdomain/set-variables@v1.2
         with:
           variables: |
             ENVIRONMENT: "${{ github.ref }}" == "refs/heads/main" ? "production" : "staging"
